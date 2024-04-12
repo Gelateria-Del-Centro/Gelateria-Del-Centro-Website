@@ -2,7 +2,6 @@
   "name": "gelateria-del-centro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://spragginsdesigns.github.io/Gelateria-Del-Centro-WebApp",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
