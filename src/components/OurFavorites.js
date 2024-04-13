@@ -5,47 +5,36 @@ import "./OurFavorites.css";
 import colorBar from "../assets/color-bar.png";
 
 // Menu Item Images (imported from assets)
-import vanillaImage from "../assets/menu-tems/web/Coconut_Milk_Indonesian_Vanilla_Bean-web.jpg";
-import chocolateImage from "../assets/menu-tems/web/Dark_Chocolate-web.jpg";
+import cremeBruleeImage from "../assets/menu-tems/web/Crème_Brûlée-web.jpg";
+import stracciatellaImage from "../assets/menu-tems/web/Stracchiatella-web.jpg";
 import caramelloImage from "../assets/menu-tems/web/Caramello_Chocolate_Crunch-web.jpg";
-import strawberryImage from "../assets/menu-tems/web/Chocolate_Strawberry-web.jpg";
-import honeyImage from "../assets/menu-tems/web/Honey_Lavender-web.jpg";
+import limoncelloImage from "../assets/menu-tems/web/Limoncello-web.jpg";
 import pistachioImage from "../assets/menu-tems/web/Pistachio-web.jpg";
 
 const favorites = [
   {
-    namePart1: "MADAGASCAR",
-    namePart2: "VANILLA BEAN",
-    image: vanillaImage,
+    namePart1: "CREME",
+    namePart2: "BRÛLÉE",
+    image: cremeBruleeImage,
     vegan: true,
   },
   {
-    namePart1: "DARK",
-    namePart2: "CHOCOLATE",
-    image: chocolateImage,
+    namePart1: "STRACCIATELLA",
+    image: stracciatellaImage,
   },
   {
-    namePart1: "CARAMELLO CHOCOLATE",
-    namePart2: "CRUNCH",
+    namePart1: "CARAMELLO",
+    namePart2: "CHOCOLATE CRUNCH",
     image: caramelloImage,
   },
-  // Duplicate the first three to make six, as per your setup
   {
-    namePart1: "CHOCOLATE",
-    namePart2: "STRAWBERRY",
-    image: strawberryImage,
-  },
-  {
-    namePart1: "HONEY",
-    namePart2: "LAVENDER",
-    image: honeyImage,
+    namePart1: "LIMONCELLO",
+    image: limoncelloImage,
   },
   {
     namePart1: "PISTACHIO",
-    namePart2: "GELATO",
     image: pistachioImage,
   },
-  // Add more favorites as needed
 ];
 
 const OurFavorites = () => {
@@ -69,7 +58,9 @@ const OurFavorites = () => {
             <div className="favorite-label">
               <h2 className="favorite-name">
                 <span className="flavor-part">{favorite.namePart1}</span>
-                <span className="flavor-part">{favorite.namePart2}</span>
+                {favorite.namePart2 && (
+                  <span className="flavor-part">{favorite.namePart2}</span>
+                )}
               </h2>
               {favorite.vegan && index === 0 && (
                 <div className="favorite-checkmark">V</div>
