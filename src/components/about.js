@@ -12,10 +12,25 @@ const About = () => {
         <div className="about-section">
           <img src={logo} alt="Gelateria Del Centro" className="store-logo" />
           <p className="about-description">
-            Welcome to Gelateria Del Centro, your go-to destination for
-            authentic Italian gelato in Fresno, California. Located in the
-            bustling heart of the city, our shop is a sanctuary for gelato
-            aficionados and dessert lovers.
+            At Gelateria Del Centro, we pride ourselves on being more than just
+            a gelato shop. Our uniqueness stems from the fusion of authentic
+            Italian gelato with the rich history and vibrant culture of downtown
+            Fresno. What sets us apart is our commitment to creating an
+            experience that transcends mere dessert indulgence. As a woman-owned
+            establishment helmed by Tami Waters, a seasoned interior designer,
+            and Jordan Sanchez, an entrepreneurial advocate for the Downtown
+            Fresno community, our gelateria is a celebration of art, history,
+            and community. Housed within the historic Warnors Center, our gelato
+            shop boasts an Art Nouveau aesthetic, adorned with 100-year-old
+            original fixtures that perfectly harmonize with the ambiance of
+            Warnors Theatre. Our carefully curated flavors, sourced from top
+            distributors, promise a taste of Italy's finest while honoring local
+            tastes and preferences. But Gelateria Del Centro is more than
+            delicious gelato. It's a space where families gather, where locals
+            and visitors come together, and where every scoop tells a story of
+            craftsmanship and community. Join us to experience the perfect blend
+            of tradition, taste, and timeless charm right in the heart of
+            downtown Fresno.
           </p>
         </div>
         <div className="info-section">
@@ -60,7 +75,21 @@ const About = () => {
             </a>
           </div>
           <h2>OUR WHY?</h2>
-          <p>Bring delicious Italian-Style gelato to Downtown Fresno</p>
+          <p>
+            At Gelateria Del Centro, our business is more than gelato—it's a
+            reflection of the passion and vision of my co-owner, Tami Waters &
+            myself. Tami is a seasoned interior designer, and I am an
+            entrepreneur deeply rooted in Downtown Fresno's community. Our
+            inspiration arose from a shared commitment to elevate downtown
+            Fresno's cultural landscape by infusing the charm of Italian gelato
+            into the historic Warnors Center. Tami's eye for aesthetics and
+            dedication to preserving heritage paired seamlessly with my
+            entrepreneurial spirit and community-driven mindset. Together, we
+            envision Gelateria Del Centro as a place where art, history, and
+            delectable flavors converge. Our dream was not just to offer
+            exceptional gelato but to craft a space where locals and visitors
+            alike could indulge in a timeless experience.
+          </p>
         </div>
       </div>
       <img src={colorBar} alt="Decorative color bar" className="color-bar" />
