@@ -16,21 +16,25 @@ const About = () => {
             a gelato shop. Our uniqueness stems from the fusion of authentic
             Italian gelato with the rich history and vibrant culture of downtown
             Fresno. What sets us apart is our commitment to creating an
-            experience that transcends mere dessert indulgence. As a woman-owned
-            establishment helmed by Tami Waters, a seasoned interior designer,
-            and Jordan Sanchez, an entrepreneurial advocate for the Downtown
-            Fresno community, our gelateria is a celebration of art, history,
-            and community. Housed within the historic Warnors Center, our gelato
-            shop boasts an Art Nouveau aesthetic, adorned with 100-year-old
-            original fixtures that perfectly harmonize with the ambiance of
-            Warnors Theatre. Our carefully curated flavors, sourced from top
-            distributors, promise a taste of Italy's finest while honoring local
-            tastes and preferences. But Gelateria Del Centro is more than
-            delicious gelato. It's a space where families gather, where locals
-            and visitors come together, and where every scoop tells a story of
-            craftsmanship and community. Join us to experience the perfect blend
-            of tradition, taste, and timeless charm right in the heart of
-            downtown Fresno.
+            experience that transcends mere dessert indulgence.
+          </p>
+          <p className="about-description">
+            As a woman-owned establishment helmed by Tami Waters, a seasoned
+            interior designer, and Jordan Sanchez, an entrepreneurial advocate
+            for the Downtown Fresno community, our gelateria is a celebration of
+            art, history, and community. Housed within the historic Warnors
+            Center, our gelato shop boasts an Art Nouveau aesthetic, adorned
+            with 100-year-old original fixtures that perfectly harmonize with
+            the ambiance of Warnors Theatre.
+          </p>
+          <p className="about-description">
+            Our carefully curated flavors, sourced from top distributors,
+            promise a taste of Italy's finest while honoring local tastes and
+            preferences. But Gelateria Del Centro is more than delicious gelato.
+            It's a space where families gather, where locals and visitors come
+            together, and where every scoop tells a story of craftsmanship and
+            community. Join us to experience the perfect blend of tradition,
+            taste, and timeless charm right in the heart of downtown Fresno.
           </p>
         </div>
         <div className="info-section">
@@ -79,16 +83,21 @@ const About = () => {
             At Gelateria Del Centro, our business is more than gelato—it's a
             reflection of the passion and vision of my co-owner, Tami Waters &
             myself. Tami is a seasoned interior designer, and I am an
-            entrepreneur deeply rooted in Downtown Fresno's community. Our
-            inspiration arose from a shared commitment to elevate downtown
+            entrepreneur deeply rooted in Downtown Fresno's community.
+          </p>
+          <p>
+            Our inspiration arose from a shared commitment to elevate downtown
             Fresno's cultural landscape by infusing the charm of Italian gelato
             into the historic Warnors Center. Tami's eye for aesthetics and
             dedication to preserving heritage paired seamlessly with my
             entrepreneurial spirit and community-driven mindset. Together, we
             envision Gelateria Del Centro as a place where art, history, and
-            delectable flavors converge. Our dream was not just to offer
-            exceptional gelato but to craft a space where locals and visitors
-            alike could indulge in a timeless experience.
+            delectable flavors converge.
+          </p>
+          <p>
+            Our dream was not just to offer exceptional gelato but to craft a
+            space where locals and visitors alike could indulge in a timeless
+            experience.
           </p>
         </div>
       </div>
