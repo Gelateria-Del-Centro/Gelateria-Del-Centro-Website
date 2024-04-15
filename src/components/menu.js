@@ -1,14 +1,13 @@
-import React from 'react';
-import OurFavoritesMenu from './OurFavorites';
-import OurSpecials from './OurSpecials';
+import React from "react";
+import OurFavoritesMenu from "./OurFavorites";
+import OurSpecials from "./OurSpecials";
 
 const Menu = () => {
-    return (
-        <>
-            <OurFavoritesMenu />
-            <OurSpecials />
-        </>
-    );
+  return (
+    <>
+      <OurFavoritesMenu />
+    </>
+  );
 };
 
 export default Menu;

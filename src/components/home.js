@@ -15,7 +15,7 @@ const Home = () => {
       <HeroCarousel />
       <About />
       <OurFavoritesMenu />
-      <SpecialEvents /> {/* Add SpecialEvents here */}
+      <SpecialEvents />
       <Contact />
     </>
   );
