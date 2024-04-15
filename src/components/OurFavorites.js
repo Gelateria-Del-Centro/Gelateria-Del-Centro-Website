@@ -3,37 +3,32 @@ import React from "react";
 import "./OurFavorites.css";
 // Color Bar Divider Line (imported from assets)
 import colorBar from "../assets/color-bar.png";
-
+// Only put affogato, spaghettieis, salted caramel, and limoncello please
+// "Cashew milk Himalayan salted caramel"
 // Menu Item Images (imported from assets)
-import cremeBruleeImage from "../assets/menu-tems/web/Crème_Brûlée-web.jpg";
-import stracciatellaImage from "../assets/menu-tems/web/Stracchiatella-web.jpg";
-import caramelloImage from "../assets/menu-tems/web/Caramello_Chocolate_Crunch-web.jpg";
+import affogatoImage from "../assets/menu-tems/web/Affogato-web.jpg";
+import spaghettieisImage from "../assets/menu-tems/web/Spaghettieis-web.jpg";
+import saltedCaramelImage from "../assets/menu-tems/web/Cashew_Milk_Himalayan_Salted_Caramel-web.jpg";
 import limoncelloImage from "../assets/menu-tems/web/Limoncello-web.jpg";
-import pistachioImage from "../assets/menu-tems/web/Pistachio-web.jpg";
 
 const favorites = [
   {
-    namePart1: "CREME",
-    namePart2: "BRÛLÉE",
-    image: cremeBruleeImage,
+    namePart1: "AFFOGATO",
+    image: affogatoImage,
     vegan: true,
   },
   {
-    namePart1: "STRACCIATELLA",
-    image: stracciatellaImage,
+    namePart1: "SPAGHETTIEIS",
+    image: spaghettieisImage,
   },
   {
-    namePart1: "CARAMELLO",
-    namePart2: "CHOCOLATE CRUNCH",
-    image: caramelloImage,
+    namePart1: "CASHEW MILK",
+    namePart2: "HIMALAYAN SALTED CARAMEL",
+    image: saltedCaramelImage,
   },
   {
     namePart1: "LIMONCELLO",
     image: limoncelloImage,
-  },
-  {
-    namePart1: "PISTACHIO",
-    image: pistachioImage,
   },
 ];
 
