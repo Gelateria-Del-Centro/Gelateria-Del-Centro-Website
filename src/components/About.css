@@ -70,6 +70,7 @@ body {
   margin: 1rem 0;
   padding: 1rem;
   font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
 }
 
 .event-card:hover {
