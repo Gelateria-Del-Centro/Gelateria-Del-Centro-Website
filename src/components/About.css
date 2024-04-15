@@ -63,6 +63,30 @@ body {
   font-style: italic;
 }
 
+.event-card {
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin: 1rem 0;
+  padding: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.event-card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+
+.event-card .event-title {
+  color: red;
+  margin-bottom: 0.75rem;
+}
+
+.event-card .current-events-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
 .color-bar {
   display: block;
   margin-left: auto;
