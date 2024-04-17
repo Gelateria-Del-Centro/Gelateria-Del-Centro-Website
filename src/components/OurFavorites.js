@@ -16,19 +16,27 @@ const favorites = [
     namePart1: "AFFOGATO",
     image: affogatoImage,
     vegan: true,
+    width: 300,
+    height: 200,
   },
   {
     namePart1: "SPAGHETTIEIS",
     image: spaghettieisImage,
+    width: 300,
+    height: 200,
   },
   {
     namePart1: "CASHEW MILK",
     namePart2: "HIMALAYAN SALTED CARAMEL",
     image: saltedCaramelImage,
+    width: 300,
+    height: 200,
   },
   {
     namePart1: "LIMONCELLO",
     image: limoncelloImage,
+    width: 300,
+    height: 200,
   },
 ];
 
@@ -49,6 +57,8 @@ const OurFavorites = () => {
               src={favorite.image}
               alt={`${favorite.namePart1} ${favorite.namePart2}`}
               className="favorite-image"
+              width={favorite.width}
+              height={favorite.height}
             />
             <div className="favorite-label">
               <h2 className="favorite-name">
