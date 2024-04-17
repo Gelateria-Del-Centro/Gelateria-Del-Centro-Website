@@ -43,6 +43,7 @@ const About = () => {
           <h2>SPECIAL EVENTS?</h2>
           <ScrollLink
             to="specialEvents"
+            href="#specialEvents"
             smooth={true}
             duration={500}
             className="lets-talk"
