@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import "./footer.css";
 import footerBackground from "../assets/footer-background-main.jpg";
 import { Instagram, Facebook } from "lucide-react";
+// Added Social Media Icons
 
 const TikTokIcon = ({ size = 24, color = "currentColor" }) => (
 	<svg
